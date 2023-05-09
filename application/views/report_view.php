@@ -58,7 +58,7 @@
                     } else {
                         foreach ($areas as $area) { ?>
                             <th>
-                                <?= $selected_area != null ? $areas[$selected_area]['area_name'] : $area->area_name ?>
+                                <?= $area->area_name ?>
                             </th>
                         <?php } ?>
                     <?php } ?>
